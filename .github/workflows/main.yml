@@ -1,36 +1,44 @@
-name: Sync Kaggle Notebooks
+name: Sync Kaggle Notebooks to GitHub
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
+  workflow_dispatch:  # Allows manual execution
 
 jobs:
   sync:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    - name: Setup Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.x
+      - name: Set Up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
 
-    - name: Install kaggle
-      run: pip install kaggle
+      - name: Install Kaggle CLI
+        run: pip install kaggle
 
-    - name: Download Kaggle notebook
-      env:
-        KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
-        KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
-      run: kaggle kernels pull <KAGGLE_USERNAME>/<NOTEBOOK_NAME> -p .
+      - name: Configure Kaggle API
+        run: |
+          mkdir -p ~/.kaggle
+          echo "{\"username\":\"${{ secrets.KAGGLE_USERNAME }}\",\"key\":\"${{ secrets.KAGGLE_KEY }}\"}" > ~/.kaggle/kaggle.json
+          chmod 600 ~/.kaggle/kaggle.json
 
-    - name: Commit and push changes
-      run: |
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add .
-        git commit -m "Update Kaggle notebooks"
-        git push
+      - name: Download Kaggle Notebooks
+        run: |
+          mkdir -p kaggle_notebooks
+          cd kaggle_notebooks
+          kaggle kernels list --mine --csv | tail -n +2 | cut -d ',' -f1 | while read notebook; do
+            kaggle kernels pull "$notebook" -p "$notebook" --metadata
+          done
+          cd ..
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.email "github-actions@github.com"
+          git config --global user.name "GitHub Actions"
+          git add .
+          git commit -m "Sync latest Kaggle notebooks" || echo "No changes to commit"
+          git push
