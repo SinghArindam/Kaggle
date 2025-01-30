@@ -24,16 +24,16 @@ jobs:
           mkdir -p ~/.kaggle
           echo "{\"username\":\"$KAGGLE_USERNAME\",\"key\":\"$KAGGLE_KEY\"}" > ~/.kaggle/kaggle.json
           chmod 600 ~/.kaggle/kaggle.json
-
+        
       - name: Download Kaggle Notebooks
         run: |
-          kaggle kernels list --mine --sort-by dateCreated --csv > notebooks.csv
-          tail -n +2 notebooks.csv | cut -d',' -f1 > notebooks.txt
-
+          kaggle kernels list --mine --sort-by dateCreated > notebooks_raw.txt
+          tail -n +2 notebooks_raw.txt | awk -F '\t' '{print $1}' > notebooks.txt
           mkdir -p kaggle_notebooks
           while read notebook; do
-            kaggle kernels pull "$notebook" -p kaggle_notebooks --metadata --force
+            kaggle kernels pull "$notebook" -p kaggle_notebooks --metadata
           done < notebooks.txt
+
 
       - name: Commit and Push Changes
         run: |
