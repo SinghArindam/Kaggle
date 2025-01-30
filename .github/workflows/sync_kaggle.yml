@@ -27,8 +27,8 @@ jobs:
 
       - name: Download Kaggle Notebooks
         run: |
-          kaggle kernels list --mine --sort-by dateCreated --json > notebooks.json
-          jq -r '.[].ref' notebooks.json > notebooks.txt
+          kaggle kernels list --mine --sort-by dateCreated --csv > notebooks.csv
+          tail -n +2 notebooks.csv | cut -d',' -f1 > notebooks.txt
 
           mkdir -p kaggle_notebooks
           while read notebook; do
