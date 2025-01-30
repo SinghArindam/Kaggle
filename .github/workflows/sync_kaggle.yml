@@ -35,10 +35,14 @@ jobs:
           done
           cd ..
 
-      - name: Commit and Push Changes
-        run: |
-          git config --global user.email "github-actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add .
-          git commit -m "Sync latest Kaggle notebooks" || echo "No changes to commit"
-          git push
+      - - name: Commit and Push Changes
+          env:
+            GH_PAT: ${{ secrets.GH_PAT }}
+          run: |
+            git config --global user.email "github-actions@github.com"
+            git config --global user.name "GitHub Actions"
+            git remote set-url origin https://x-access-token:${GH_PAT}@github.com/SinghArindam/Kaggle.git
+            git add .
+            git commit -m "Sync latest Kaggle notebooks" || echo "No changes to commit"
+            git push origin main
+
