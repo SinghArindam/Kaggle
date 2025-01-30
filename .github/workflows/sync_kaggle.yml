@@ -27,7 +27,9 @@ jobs:
 
       - name: Download Kaggle Notebooks
         run: |
-          kaggle kernels list --mine --sort-by dateCreated --output-format json | jq -r '.[].ref' > notebooks.txt
+          kaggle kernels list --mine --sort-by dateCreated --json > notebooks.json
+          jq -r '.[].ref' notebooks.json > notebooks.txt
+
           mkdir -p kaggle_notebooks
           while read notebook; do
             kaggle kernels pull "$notebook" -p kaggle_notebooks --metadata --force
