@@ -1,0 +1,72 @@
+name: Kaggle Notebooks Sync
+
+on:
+  workflow_dispatch:  # Manually trigger the workflow
+  schedule:
+    - cron: '0 0 * * *'  # Daily automatic run (optional)
+
+jobs:
+  sync-kaggle-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GH_TOKEN }}
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install kaggle pandas
+
+    - name: Configure Kaggle API
+      run: |
+        mkdir -p ~/.kaggle
+        echo '{"username":"${{ secrets.KAGGLE_USERNAME }}","key":"${{ secrets.KAGGLE_KEY }}"}' > ~/.kaggle/kaggle.json
+        chmod 600 ~/.kaggle/kaggle.json
+
+    - name: Download Kaggle notebooks list
+      run: |
+        page=1
+        while true; do
+          output=$(kaggle kernels list --csv -p $page)
+          if [ -z "$output" ]; then break; fi
+          if [ $page -eq 1 ]; then
+            echo "$output" > all_kernels.csv
+          else
+            echo "$output" | tail -n +2 >> all_kernels.csv
+          fi
+          page=$((page+1))
+          sleep 1  # Rate limiting
+        done
+
+    - name: Convert to JSON
+      run: |
+        python -c "import pandas as pd; df = pd.read_csv('all_kernels.csv'); df.to_json('all_kernels.json', orient='records', indent=2)"
+
+    - name: Download notebooks and metadata
+      run: |
+        mkdir -p notebooks
+        while IFS=, read -r ref _; do
+          if [ "$ref" = "ref" ]; then continue; fi  # Skip header
+          sanitized_ref="${ref//\//-}"  # Replace slashes with dashes
+          dir="notebooks/$sanitized_ref"
+          mkdir -p "$dir"
+          kaggle kernels pull -p "$dir" "$ref" || echo "Failed to download $ref"
+          kaggle kernels metadata -p "$dir" "$ref" || echo "Failed to get metadata for $ref"
+          sleep 1  # Rate limiting
+        done < all_kernels.csv
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add .
+        git commit -m "Automated update: Kaggle notebooks sync"
+        git push
