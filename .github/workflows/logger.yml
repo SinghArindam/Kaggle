@@ -1,0 +1,33 @@
+name: Hourly File Structure Logging
+
+on:
+  schedule:
+    - cron: "0 * * * *"  # Runs every hour at the start of the hour
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  generate_log:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git User
+        run: |
+          git config --global user.name "SinghArindam"
+          git config --global user.email "arindam0@hotmail.com"
+
+      - name: Create logs folder (if not exists)
+        run: mkdir -p logs
+
+      - name: Generate log file
+        run: |
+          TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
+          ls -R > logs/log_${TIMESTAMP}.txt  # List all files and folders recursively
+
+      - name: Commit and Push Changes
+        run: |
+          git add logs/
+          git commit -m "Added hourly log file with file structure"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/SinghArindam/Kaggle.git
