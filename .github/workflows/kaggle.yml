@@ -34,7 +34,7 @@ jobs:
 
     - name: Convert to JSON
       run: |
-        python -c "import pandas as pd; df = pd.read_csv('all_kernels.csv'); df.to_json('all_kernels.json', orient='records', indent=2)"
+        ls
 
     - name: Download notebooks and metadata
       run: |
