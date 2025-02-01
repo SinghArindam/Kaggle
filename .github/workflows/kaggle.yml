@@ -38,16 +38,7 @@ jobs:
 
     - name: Download notebooks and metadata
       run: |
-        mkdir -p notebooks
-        while IFS=, read -r ref _; do
-          if [ "$ref" = "ref" ]; then continue; fi  # Skip header
-          sanitized_ref="${ref//\//-}"  # Replace slashes with dashes
-          dir="notebooks/$sanitized_ref"
-          mkdir -p "$dir"
-          kaggle kernels pull -p "$dir" "$ref" || echo "Failed to download $ref"
-          kaggle kernels metadata -p "$dir" "$ref" || echo "Failed to get metadata for $ref"
-          sleep 1  # Rate limiting
-        done < all_kernels.csv
+        ls
 
     - name: Commit and push changes
       run: |
