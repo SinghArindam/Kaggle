@@ -1,0 +1,52 @@
+name: Kaggle Notebooks Sync V2
+
+on:
+  workflow_dispatch:  # Manually trigger the workflow
+  schedule:
+    - cron: '0 0 * * *'  # Daily automatic run (optional)
+
+jobs:
+  sync-kaggle-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install kaggle pandas
+
+    - name: Configure Kaggle API
+      run: |
+        mkdir -p ~/.kaggle
+        echo '{"username":"${{ secrets.KAGGLE_USERNAME }}","key":"${{ secrets.KAGGLE_KEY }}"}' > ~/.kaggle/kaggle.json
+        chmod 600 ~/.kaggle/kaggle.json
+
+    - name: Download Kaggle notebooks list
+      run: |
+        mkdir -p notebooks
+        kaggle kernels list --mine --sort-by dateCreated --csv --page-size 10000 > notebooks/kaggle_notebooks.csv
+
+
+    - name: Convert to JSON
+      run: |
+        mkdir -p notebooks
+        python3 -c "import pandas as pd; pd.read_csv('notebooks/kaggle_notebooks.csv').to_json('notebooks/kaggle_notebooks.json', orient='records', indent=4)"
+
+    - name: Download notebooks and metadata
+      run: |
+        python3 -c "import json, os; base_dir='notebooks'; notebooks=json.load(open('notebooks/kaggle_notebooks.json')); [os.makedirs(os.path.join(base_dir, nb['title']), exist_ok=True) or os.system(f'kaggle kernels pull {nb['ref']} -p {os.path.join(base_dir, nb['title'])} --metadata') for nb in notebooks if 'ref' in nb and 'title' in nb]"
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add .
+        git commit -m "Automated update: Kaggle notebooks sync"
+        git push
