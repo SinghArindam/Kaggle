@@ -30,7 +30,7 @@ jobs:
 
     - name: Download Kaggle notebooks list
       run: |
-        kaggle kernels list --csv > kaggle_notebooks.csv
+        kaggle kernels list --mine --sort-by dateCreated --csv > kaggle_notebooks.csv
 
     - name: Convert to JSON
       run: |
