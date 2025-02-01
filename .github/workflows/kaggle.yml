@@ -35,7 +35,7 @@ jobs:
 
     - name: Convert to JSON
       run: |
-        ls
+        python3 -c "import pandas as pd; pd.read_csv('kaggle_notebooks.csv').to_json('kaggle_notebooks.json', orient='records', indent=4)"
 
     - name: Download notebooks and metadata
       run: |
