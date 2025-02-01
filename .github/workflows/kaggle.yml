@@ -30,18 +30,7 @@ jobs:
 
     - name: Download Kaggle notebooks list
       run: |
-        page=1
-        while true; do
-          output=$(kaggle kernels list --csv -p $page)
-          if [ -z "$output" ]; then break; fi
-          if [ $page -eq 1 ]; then
-            echo "$output" > all_kernels.csv
-          else
-            echo "$output" | tail -n +2 >> all_kernels.csv
-          fi
-          page=$((page+1))
-          sleep 1  # Rate limiting
-        done
+        kaggle kernels list --csv > kaggle_notebooks.csv
 
     - name: Convert to JSON
       run: |
