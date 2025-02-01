@@ -41,7 +41,7 @@ jobs:
 
     - name: Download notebooks and metadata
       run: |
-        ls
+        python3 -c "import json, os; base_dir='notebooks'; notebooks=json.load(open('notebooks/kaggle_notebooks.json')); [os.makedirs(os.path.join(base_dir, nb['title']), exist_ok=True) or os.system(f'kaggle kernels pull {nb['ref']} -p {os.path.join(base_dir, nb['title'])} --metadata') for nb in notebooks if 'ref' in nb and 'title' in nb]"
 
     - name: Commit and push changes
       run: |
