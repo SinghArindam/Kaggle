@@ -30,11 +30,13 @@ jobs:
 
     - name: Download Kaggle notebooks list
       run: |
+        mkdir -p notebooks
         kaggle kernels list --mine --sort-by dateCreated --csv --page-size 10000 > notebooks/kaggle_notebooks.csv
 
 
     - name: Convert to JSON
       run: |
+        mkdir -p notebooks
         python3 -c "import pandas as pd; pd.read_csv('notebooks/kaggle_notebooks.csv').to_json('notebooks/kaggle_notebooks.json', orient='records', indent=4)"
 
     - name: Download notebooks and metadata
