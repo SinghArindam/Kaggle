@@ -1,0 +1,275 @@
+[
+    {
+        "ref":"arie07\/prepare-augmented-dataset-voxceleb",
+        "title":"prepare_augmented_dataset_VoxCeleb",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-30 17:25:41",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/open-webui-v2",
+        "title":"Open-webui_v2",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-30 14:11:22",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/learn-pytorch-and-mnist-30jan2024",
+        "title":"Learn_Pytorch_and_MNIST_30Jan2024",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-02-01 06:58:56",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/ollama-webui-serve-v1",
+        "title":"Ollama+webui_serve_v1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-28 07:39:31",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/ollama-server-v1",
+        "title":"Ollama_server_v1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-30 13:36:45",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/housing-prices-competition-v1",
+        "title":"Housing_Prices_Competition_v1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 18:26:31",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-machine-learning-competitions",
+        "title":"Exercise: Machine Learning Competitions",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 18:09:30",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-random-forests",
+        "title":"Exercise: Random Forests",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 17:32:20",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-underfitting-and-overfitting",
+        "title":"Exercise: Underfitting and Overfitting",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 16:19:13",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-model-validation",
+        "title":"Exercise: Model Validation",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 15:56:17",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-your-first-machine-learning-model",
+        "title":"Exercise: Your First Machine Learning Model",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 15:14:46",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-explore-your-data",
+        "title":"Exercise: Explore Your Data",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 14:56:58",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-working-with-external-libraries",
+        "title":"Exercise: Working with External Libraries",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 13:10:47",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-strings-and-dictionaries",
+        "title":"Exercise: Strings and Dictionaries",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 11:48:17",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-loops-and-list-comprehensions",
+        "title":"Exercise: Loops and List Comprehensions",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 10:20:31",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/ollama-trial-notebook",
+        "title":"Ollama_Trial_Notebook",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 14:30:52",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/exercise-lists",
+        "title":"Exercise: Lists",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 09:50:04",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-booleans-and-conditionals",
+        "title":"Exercise: Booleans and Conditionals",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 09:06:55",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-functions-and-getting-help",
+        "title":"Exercise: Functions and Getting Help",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 07:51:03",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-syntax-variables-and-numbers",
+        "title":"Exercise: Syntax, Variables, and Numbers",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 07:31:58",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/titanic-v1",
+        "title":"Titanic_v1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 06:47:30",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/srxvmainkaggle",
+        "title":"SRXVmainKaggle",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 14:29:19",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/exercise-intro-to-lists",
+        "title":"Exercise: Intro to Lists",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-23 03:58:45",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-conditions-and-conditional-statements",
+        "title":"Exercise: Conditions and Conditional Statements",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-23 03:39:53",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-data-types",
+        "title":"Exercise: Data Types",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-23 03:29:20",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-functions",
+        "title":"Exercise: Functions",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-23 03:12:24",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exercise-arithmetic-and-variables",
+        "title":"Exercise: Arithmetic and Variables",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-23 03:04:24",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/srxv-restoptions",
+        "title":"SRXV_RestOptions",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-22 12:33:08",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/srxv-py310",
+        "title":"SRXV_Py310",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-22 08:53:29",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/notebook12467bf882",
+        "title":"notebook12467bf882",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-21 15:01:06",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/final-srxv-py38",
+        "title":"Final_SRXV_Py38",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-25 05:41:10",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/final-srxv-py311",
+        "title":"Final_SRXV_Py311",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-21 14:08:42",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/python3-11",
+        "title":"python3.11",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-20 17:10:12",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/srxv2",
+        "title":"SRXV2",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-20 12:51:06",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/mnist-dgrc-ubyte",
+        "title":"Mnist_DgRc_ubyte",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-19 17:25:59",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/srxv1",
+        "title":"SRXV1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-18 11:13:11",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/miniconda-v1",
+        "title":"miniconda_v1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-18 09:26:48",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/sr-x-vector",
+        "title":"SR_X_Vector",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-18 07:46:58",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/notebook53ed701a97",
+        "title":"notebook53ed701a97",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-01-16 04:30:04",
+        "totalVotes":0
+    }
+]
