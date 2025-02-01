@@ -1,21 +1,21 @@
 ref,title,author,lastRunTime,totalVotes
-zaburo/2nd-place-solution-zaburo-s-part,2nd place solution (@zaburo's part),KaizaburoChubachi,2025-02-01 00:20:32,11
-gauravduttakiit/pss5e2-optimize-for-deployment-gpu,PSS5E2 : optimize_for_deployment : gpu,Gaurav Dutta,2025-02-01 01:03:33,7
-abdmental01/a-good-start-catboost,A Good Start Catboost,Sheikh Muhammad Abdullah,2025-02-01 02:45:59,5
-cdeotte/6th-place-add-holidays-lb-0-046,6th Place - Add Holidays - [LB 0.046],Chris Deotte,2025-02-01 00:55:12,6
-elasgustavoknaus/anova-optuna-gpu-xgbregressor,ANOVA | Optuna | GPU | XgbRegressor,KnEl1a,2025-02-01 04:57:25,3
-gauravduttakiit/pss5e2-dataset,PSS5E2 : Dataset,Gaurav Dutta,2025-02-01 02:54:16,3
-itzgauurab/worse-than-baseline,Worse than baseline!,Gaurab Baral,2025-02-01 00:19:27,6
-gauravduttakiit/pss5e2-good-quality-gpu,PSS5E2 : good_quality : gpu,Gaurav Dutta,2025-02-01 01:18:36,4
-yteshima/ps5s1-easy-dashboard-and-prediction,PS5S1_easy_dashboard_and_prediction,Y.Teshima,2025-02-01 04:38:52,3
-gauravduttakiit/pss5e2-medium-quality-gpu,PSS5E2 : medium_quality : gpu,Gaurav Dutta,2025-02-01 01:01:53,4
-zyh1104/backpack-visual-analysis,Backpack | Visual analysis🧑‍🎓,yihao zhu,2025-02-01 04:17:32,2
-mpwolke/backpack-you-get-what-you-pay-for,Backpack: You get what you Pay for! ,Marília Prata,2025-02-01 04:54:47,7
-bhavyam24/human-stress-prediction-cleaned-dataset,Human Stress Prediction (Cleaned) Dataset,DataQ,2025-02-01 03:24:00,3
-chitradas/ex1-pss5e2-optimize-for-deployment-gpu,Ex1 : PSS5E2 : optimize_for_deployment : gpu,Chitra Das,2025-02-01 03:16:46,2
-gauravduttakiit/ex1-pss5e2-lazypredict,Ex1 : PSS5E2 : LazyPredict,Gaurav Dutta,2025-02-01 03:00:51,2
-umehabibaakbarali/heart-attack-risk,Heart_attack_risk,um e habiba  Akbar Ali,2025-02-01 02:52:35,2
-aryagokh/automl-backpack,AutoML-Backpack,Arya Gokhale,2025-02-01 02:43:42,2
-gyogyocat/5-2-baseline-gbm-cat,"5_2_baseline(GBM,CAT)",GyoGyoCat,2025-02-01 02:06:01,4
-tarundirector/backpack-prediction-initial-eda,🎒Backpack Prediction💼 | Initial EDA📈 ,Tarun Mishra,2025-02-01 01:54:15,4
-asalhi/3rd-place-sa-weighted-candidate-generator-sol1,[3rd Place] SA Weighted Candidate Generator Sol1,Ali,2025-01-31 19:42:02,13
+arie07/prepare-augmented-dataset-voxceleb,prepare_augmented_dataset_VoxCeleb,Arindam Singh,2025-01-30 17:25:41,0
+arie07/open-webui-v2,Open-webui_v2,Arindam Singh,2025-01-30 14:11:22,0
+arie07/learn-pytorch-and-mnist-30jan2024,Learn_Pytorch_and_MNIST_30Jan2024,Arindam Singh,2025-02-01 06:58:56,1
+arie07/ollama-webui-serve-v1,Ollama+webui_serve_v1,Arindam Singh,2025-01-28 07:39:31,0
+arie07/ollama-server-v1,Ollama_server_v1,Arindam Singh,2025-01-30 13:36:45,1
+arie07/housing-prices-competition-v1,Housing_Prices_Competition_v1,Arindam Singh,2025-01-25 18:26:31,0
+arie07/exercise-machine-learning-competitions,Exercise: Machine Learning Competitions,Arindam Singh,2025-01-25 18:09:30,0
+arie07/exercise-random-forests,Exercise: Random Forests,Arindam Singh,2025-01-25 17:32:20,0
+arie07/exercise-underfitting-and-overfitting,Exercise: Underfitting and Overfitting,Arindam Singh,2025-01-25 16:19:13,0
+arie07/exercise-model-validation,Exercise: Model Validation,Arindam Singh,2025-01-25 15:56:17,0
+arie07/exercise-your-first-machine-learning-model,Exercise: Your First Machine Learning Model,Arindam Singh,2025-01-25 15:14:46,0
+arie07/exercise-explore-your-data,Exercise: Explore Your Data,Arindam Singh,2025-01-25 14:56:58,0
+arie07/exercise-working-with-external-libraries,Exercise: Working with External Libraries,Arindam Singh,2025-01-25 13:10:47,0
+arie07/exercise-strings-and-dictionaries,Exercise: Strings and Dictionaries,Arindam Singh,2025-01-25 11:48:17,0
+arie07/exercise-loops-and-list-comprehensions,Exercise: Loops and List Comprehensions,Arindam Singh,2025-01-25 10:20:31,0
+arie07/ollama-trial-notebook,Ollama_Trial_Notebook,Arindam Singh,2025-01-25 14:30:52,1
+arie07/exercise-lists,Exercise: Lists,Arindam Singh,2025-01-25 09:50:04,0
+arie07/exercise-booleans-and-conditionals,Exercise: Booleans and Conditionals,Arindam Singh,2025-01-25 09:06:55,0
+arie07/exercise-functions-and-getting-help,Exercise: Functions and Getting Help,Arindam Singh,2025-01-25 07:51:03,0
+arie07/exercise-syntax-variables-and-numbers,"Exercise: Syntax, Variables, and Numbers",Arindam Singh,2025-01-25 07:31:58,0
