@@ -1,0 +1,17 @@
+{
+  "id": "arie07/python3-11",
+  "id_no": 75020582,
+  "title": "python3.11",
+  "code_file": "python3-11.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "arie07/srxv-py310",
+  "id_no": 75071718,
+  "title": "SRXV_Py310",
+  "code_file": "srxv-py310.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "arie07/audiodataset10percent"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

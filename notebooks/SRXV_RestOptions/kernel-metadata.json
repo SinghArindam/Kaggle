@@ -1,0 +1,21 @@
+{
+  "id": "arie07/srxv-restoptions",
+  "id_no": 75122872,
+  "title": "SRXV_RestOptions",
+  "code_file": "srxv-restoptions.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "arie07/audiodataset10percent"
+  ],
+  "kernel_sources": [
+    "arie07/srxv-py310"
+  ],
+  "competition_sources": [],
+  "model_sources": []
+}

@@ -1,0 +1,19 @@
+{
+  "id": "arie07/final-srxv-py38",
+  "id_no": 75065621,
+  "title": "Final_SRXV_Py38",
+  "code_file": "final-srxv-py38.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "arie07/audiodatasetminiatureforspeechrecognitionxvector"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "arie07/ollama-server-v1",
+  "id_no": 75440661,
+  "title": "Ollama_server_v1",
+  "code_file": "ollama-server-v1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

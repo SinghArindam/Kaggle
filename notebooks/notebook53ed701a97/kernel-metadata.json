@@ -1,0 +1,19 @@
+{
+  "id": "arie07/notebook53ed701a97",
+  "id_no": 74786396,
+  "title": "notebook53ed701a97",
+  "code_file": "notebook53ed701a97.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "animatronbot/mnist-digit-recognizer"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

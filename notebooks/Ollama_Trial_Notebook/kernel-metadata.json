@@ -1,0 +1,19 @@
+{
+  "id": "arie07/ollama-trial-notebook",
+  "id_no": 75289970,
+  "title": "Ollama_Trial_Notebook",
+  "code_file": "ollama-trial-notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

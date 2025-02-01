@@ -1,0 +1,21 @@
+{
+  "id": "arie07/prepare-augmented-dataset-voxceleb",
+  "id_no": 75579824,
+  "title": "prepare_augmented_dataset_VoxCeleb",
+  "code_file": "prepare-augmented-dataset-voxceleb.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "dogrose/musan-dataset",
+    "nhattruongdev/rirs-noises",
+    "kryakrya/voxceleb1train"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

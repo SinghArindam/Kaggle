@@ -1,0 +1,20 @@
+{
+  "id": "arie07/srxvmainkaggle",
+  "id_no": 75281297,
+  "title": "SRXVmainKaggle",
+  "code_file": "srxvmainkaggle.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "arie07/audiodataset10percent",
+    "arie07/srxvmainkagglecode"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
