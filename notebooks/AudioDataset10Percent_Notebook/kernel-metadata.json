@@ -1,0 +1,19 @@
+{
+  "id": "arie07/audiodataset10percent-notebook",
+  "id_no": 75705258,
+  "title": "AudioDataset10Percent_Notebook",
+  "code_file": "audiodataset10percent-notebook.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "arie07/audiodataset10percent"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
