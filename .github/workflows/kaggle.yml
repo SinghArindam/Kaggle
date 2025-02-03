@@ -28,6 +28,9 @@ jobs:
         echo '{"username":"${{ secrets.KAGGLE_USERNAME }}","key":"${{ secrets.KAGGLE_KEY }}"}' > ~/.kaggle/kaggle.json
         chmod 600 ~/.kaggle/kaggle.json
 
+    - name: Start Existing Kaggle Notebook
+      run: kaggle kernels status arie07/hello-world || kaggle kernels start arie07/hello-world
+
     - name: Download Kaggle notebooks list
       run: |
         mkdir -p notebooks
