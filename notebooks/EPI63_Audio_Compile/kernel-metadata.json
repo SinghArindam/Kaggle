@@ -1,0 +1,17 @@
+{
+  "id": "arie07/epi63-audio-compile",
+  "id_no": 75783676,
+  "title": "EPI63_Audio_Compile",
+  "code_file": "epi63-audio-compile.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
