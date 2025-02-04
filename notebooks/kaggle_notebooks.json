@@ -4,7 +4,7 @@
         "title":"Hello_World",
         "author":"Arindam Singh",
         "lastRunTime":"2025-02-03 05:05:33",
-        "totalVotes":0
+        "totalVotes":1
     },
     {
         "ref":"arie07\/epi63-audio-compile",
@@ -25,7 +25,7 @@
         "title":"AudioDataset10Percent_Notebook",
         "author":"Arindam Singh",
         "lastRunTime":"2025-02-01 09:37:57",
-        "totalVotes":2
+        "totalVotes":3
     },
     {
         "ref":"arie07\/prepare-augmented-dataset-voxceleb",
@@ -46,7 +46,7 @@
         "title":"Learn_Pytorch_and_MNIST_30Jan2024",
         "author":"Arindam Singh",
         "lastRunTime":"2025-02-01 11:01:18",
-        "totalVotes":1
+        "totalVotes":2
     },
     {
         "ref":"arie07\/ollama-webui-serve-v1",
@@ -179,7 +179,7 @@
         "title":"SRXVmainKaggle",
         "author":"Arindam Singh",
         "lastRunTime":"2025-01-25 14:29:19",
-        "totalVotes":1
+        "totalVotes":2
     },
     {
         "ref":"arie07\/exercise-intro-to-lists",
