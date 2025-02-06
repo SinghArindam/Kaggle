@@ -1,0 +1,21 @@
+{
+  "id": "arie07/ecapa-tdnn-v1",
+  "id_no": 76003034,
+  "title": "ECAPA_TDNN_v1",
+  "code_file": "ecapa-tdnn-v1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "arie07/audiodataset10percent",
+    "arie07/trainecapamodel",
+    "arie07/voxceleb2train-list-txt"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
