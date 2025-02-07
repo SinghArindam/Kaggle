@@ -9,7 +9,12 @@
   "enable_gpu": false,
   "enable_tpu": false,
   "enable_internet": true,
-  "keywords": [],
+  "keywords": [
+    "nlp",
+    "text generation",
+    "text",
+    "languages"
+  ],
   "dataset_sources": [],
   "kernel_sources": [],
   "competition_sources": [],
