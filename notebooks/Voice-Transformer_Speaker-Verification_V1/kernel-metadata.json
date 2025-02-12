@@ -1,0 +1,19 @@
+{
+  "id": "arie07/voice-transformer-speaker-verification-v1",
+  "id_no": 76440100,
+  "title": "Voice-Transformer_Speaker-Verification_V1",
+  "code_file": "voice-transformer-speaker-verification-v1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "arie07/audiodataset10percent"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

@@ -9,9 +9,7 @@
   "enable_gpu": false,
   "enable_tpu": false,
   "enable_internet": true,
-  "keywords": [
-    "scheduled"
-  ],
+  "keywords": [],
   "dataset_sources": [],
   "kernel_sources": [],
   "competition_sources": [],

@@ -1,5 +1,19 @@
 [
     {
+        "ref":"arie07\/voice-transformer-speaker-verification-v1",
+        "title":"Voice-Transformer_Speaker-Verification_V1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-02-11 13:32:43",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/llms-you-can-t-please-them-all-v1",
+        "title":"LLMs - You Can't Please Them All_V1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-02-11 13:03:31",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/titanic-v2",
         "title":"Titanic_V2",
         "author":"Arindam Singh",
@@ -17,21 +31,21 @@
         "ref":"arie07\/ecapa-tdnn-v2",
         "title":"ECAPA_TDNN_v2",
         "author":"Arindam Singh",
-        "lastRunTime":"2025-02-06 07:46:44",
-        "totalVotes":0
+        "lastRunTime":"2025-02-11 12:00:42",
+        "totalVotes":1
     },
     {
         "ref":"arie07\/ecapa-tdnn-v1",
         "title":"ECAPA_TDNN_v1",
         "author":"Arindam Singh",
         "lastRunTime":"2025-02-06 07:30:57",
-        "totalVotes":0
+        "totalVotes":2
     },
     {
         "ref":"arie07\/hello-world",
         "title":"Hello_World",
         "author":"Arindam Singh",
-        "lastRunTime":"2025-02-10 23:50:43",
+        "lastRunTime":"2025-02-11 05:06:38",
         "totalVotes":1
     },
     {
