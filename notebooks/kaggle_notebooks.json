@@ -1,5 +1,12 @@
 [
     {
+        "ref":"arie07\/ecapa-tdnn-v4",
+        "title":"ECAPA_TDNN_v4",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-02-25 08:21:30",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/voice-transformer-speaker-verification-v1",
         "title":"Voice-Transformer_Speaker-Verification_V1",
         "author":"Arindam Singh",
@@ -45,7 +52,7 @@
         "ref":"arie07\/hello-world",
         "title":"Hello_World",
         "author":"Arindam Singh",
-        "lastRunTime":"2025-02-24 04:49:33",
+        "lastRunTime":"2025-02-25 06:52:07",
         "totalVotes":1
     },
     {
