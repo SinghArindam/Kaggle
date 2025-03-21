@@ -1,5 +1,12 @@
 [
     {
+        "ref":"arie07\/exp-dl-12-building-a-cnn-from-scratch",
+        "title":"EXP_DL_12_Building_a_CNN_From_Scratch",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-03-20 04:41:11.537000",
+        "totalVotes":1
+    },
+    {
         "ref":"arie07\/ecapa-tdnn-v4",
         "title":"ECAPA_TDNN_v4",
         "author":"Arindam Singh",
@@ -52,7 +59,7 @@
         "ref":"arie07\/hello-world",
         "title":"Hello_World",
         "author":"Arindam Singh",
-        "lastRunTime":"2025-03-19 06:39:14.907000",
+        "lastRunTime":"2025-03-20 03:37:04.043000",
         "totalVotes":1
     },
     {

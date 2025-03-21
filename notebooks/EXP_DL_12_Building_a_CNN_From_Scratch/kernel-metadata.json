@@ -1,0 +1,23 @@
+{
+  "id": "arie07/exp-dl-12-building-a-cnn-from-scratch",
+  "id_no": 78922671,
+  "title": "EXP_DL_12_Building_a_CNN_From_Scratch",
+  "code_file": "exp-dl-12-building-a-cnn-from-scratch.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "oddrationale/mnist-in-csv"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "digit-recognizer"
+  ],
+  "model_sources": []
+}
