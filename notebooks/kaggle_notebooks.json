@@ -1,5 +1,47 @@
 [
     {
+        "ref":"arie07\/drawing-with-llm-v0-0-0-1",
+        "title":"Drawing_with_LLM_v0.0.0.1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-03-27 09:22:39.393000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/arc-prize-v0-2-0",
+        "title":"ARC_Prize_v0.2.0",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-03-27 09:02:10.813000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/arc-prize-v0-1-1",
+        "title":"ARC_Prize_v0.1.1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-03-27 08:57:36.967000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/arc-prize-v0-0-1",
+        "title":"ARC_Prize_v0.0.1",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-03-27 05:20:44.317000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/ensemble-cnn-with-batch-normalization",
+        "title":"Ensemble CNN with Batch Normalization",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-03-27 04:53:35.030000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/exp-dl-13-resnet-mnist-pytorch-from-scratch",
+        "title":"EXP_DL_13_RESNET_MNIST_pytorch_from_Scratch",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-03-27 04:04:38.037000",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/exp-dl-12-building-a-cnn-from-scratch",
         "title":"EXP_DL_12_Building_a_CNN_From_Scratch",
         "author":"Arindam Singh",

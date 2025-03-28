@@ -1,0 +1,21 @@
+{
+  "id": "arie07/arc-prize-v0-2-0",
+  "id_no": 79424981,
+  "title": "ARC_Prize_v0.2.0",
+  "code_file": "arc-prize-v0-2-0.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "arc-prize-2025"
+  ],
+  "model_sources": [
+    "google/gemma-3/Transformers/gemma-3-1b-it/1"
+  ]
+}

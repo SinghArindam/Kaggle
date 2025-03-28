@@ -1,0 +1,19 @@
+{
+  "id": "arie07/arc-prize-v0-0-1",
+  "id_no": 79412352,
+  "title": "ARC_Prize_v0.0.1",
+  "code_file": "arc-prize-v0-0-1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "arc-prize-2025"
+  ],
+  "model_sources": []
+}

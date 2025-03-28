@@ -1,0 +1,21 @@
+{
+  "id": "arie07/exp-dl-13-resnet-mnist-pytorch-from-scratch",
+  "id_no": 79408019,
+  "title": "EXP_DL_13_RESNET_MNIST_pytorch_from_Scratch",
+  "code_file": "exp-dl-13-resnet-mnist-pytorch-from-scratch.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "digit-recognizer"
+  ],
+  "model_sources": []
+}

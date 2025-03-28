@@ -1,0 +1,22 @@
+{
+  "id": "arie07/arc-prize-v0-1-1",
+  "id_no": 79424088,
+  "title": "ARC_Prize_v0.1.1",
+  "code_file": "arc-prize-v0-1-1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "icecuber/arc-solution-source-files",
+    "hansuelijud/arc-solution-source-files-by-icecuber"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "arc-prize-2025"
+  ],
+  "model_sources": []
+}

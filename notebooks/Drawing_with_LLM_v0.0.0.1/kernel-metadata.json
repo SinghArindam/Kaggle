@@ -1,0 +1,24 @@
+{
+  "id": "arie07/drawing-with-llm-v0-0-0-1",
+  "id_no": 79425921,
+  "title": "Drawing_with_LLM_v0.0.0.1",
+  "code_file": "drawing-with-llm-v0-0-0-1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "takusid/kcomfyui"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "drawing-with-llms"
+  ],
+  "model_sources": [
+    "takusid/flux1-dev-q2_k/PyTorch/default/2",
+    "aishikai/google-siglip-so400m-patch14-384/Transformers/default/1"
+  ]
+}
