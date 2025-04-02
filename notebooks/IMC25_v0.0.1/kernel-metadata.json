@@ -1,0 +1,28 @@
+{
+  "id": "arie07/imc25-v0-0-1",
+  "id_no": 79856880,
+  "title": "IMC25_v0.0.1",
+  "code_file": "imc25-v0-0-1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "arie07/imc2024-packages-kornia-copy",
+    "arie07/imc25-utils"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "image-matching-challenge-2025"
+  ],
+  "model_sources": [
+    "oldufo/aliked/PyTorch/aliked-n16/1",
+    "metaresearch/dinov2/PyTorch/base/1",
+    "oldufo/lightglue/PyTorch/aliked/1"
+  ]
+}

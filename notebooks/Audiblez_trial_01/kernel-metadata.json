@@ -1,0 +1,19 @@
+{
+  "id": "arie07/audiblez-trial-01",
+  "id_no": 79817976,
+  "title": "Audiblez_trial_01",
+  "code_file": "audiblez-trial-01.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "arie07/ebooks-epubs"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
