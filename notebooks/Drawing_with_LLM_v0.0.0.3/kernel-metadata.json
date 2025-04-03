@@ -1,0 +1,27 @@
+{
+  "id": "arie07/drawing-with-llm-v0-0-0-3",
+  "id_no": 79864459,
+  "title": "Drawing_with_LLM_v0.0.0.3",
+  "code_file": "drawing-with-llm-v0-0-0-3.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "package",
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "metric/svg-constraints",
+    "packagemanager/pm-79864459-at-04-02-2025-02-51-21"
+  ],
+  "competition_sources": [
+    "drawing-with-llms"
+  ],
+  "model_sources": [
+    "qwen-lm/qwen2.5/Transformers/32b-instruct-awq/1"
+  ]
+}

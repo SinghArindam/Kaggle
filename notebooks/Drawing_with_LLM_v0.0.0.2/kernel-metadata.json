@@ -13,7 +13,10 @@
     "package"
   ],
   "dataset_sources": [],
-  "kernel_sources": [],
+  "kernel_sources": [
+    "metric/svg-constraints",
+    "jiazhuang/svg-image-fidelity"
+  ],
   "competition_sources": [
     "drawing-with-llms"
   ],
