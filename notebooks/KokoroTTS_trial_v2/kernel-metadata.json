@@ -1,0 +1,21 @@
+{
+  "id": "arie07/kokorotts-trial-v2",
+  "id_no": 80791236,
+  "title": "KokoroTTS_trial_v2",
+  "code_file": "kokorotts-trial-v2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "arie07/ebooks-epubs"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
