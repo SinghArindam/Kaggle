@@ -1,0 +1,21 @@
+{
+  "id": "arie07/dl-experiment-10",
+  "id_no": 81232875,
+  "title": "DL_Experiment_10",
+  "code_file": "dl-experiment-10.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "lakshmi25npathi/imdb-dataset-of-50k-movie-reviews"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

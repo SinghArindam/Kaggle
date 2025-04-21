@@ -1,5 +1,82 @@
 [
     {
+        "ref":"arie07\/dl-experiment-10",
+        "title":"DL_Experiment_10",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 13:49:35.407000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/dl-experiment-09",
+        "title":"DL_Experiment_09",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 12:57:52.707000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/dl-experiment-08",
+        "title":"DL_Experiment_08",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 12:08:35.113000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/dl-experiment-07",
+        "title":"DL_Experiment_07",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 15:13:49.673000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/dl-experiment-06",
+        "title":"DL_Experiment_06",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 11:43:49.287000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/pytorch-vgg-16-resnet-and-models",
+        "title":"PyTorch : VGG-16, Resnet, and models",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 11:25:00.147000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/dl-experiment-05",
+        "title":"DL_Experiment_05",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 17:02:36.170000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/dl-experiment-04",
+        "title":"DL_Experiment_04",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 14:26:53.103000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/dl-experiment-03",
+        "title":"DL_Experiment_03",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 10:30:53.170000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/dl-experiment-02",
+        "title":"DL_Experiment_02",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 14:22:34.713000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/dl-experiment-01",
+        "title":"DL_Experiment_01",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-20 14:14:24.577000",
+        "totalVotes":1
+    },
+    {
         "ref":"arie07\/kokorotts-trial-v3",
         "title":"KokoroTTS_trial_v3",
         "author":"Arindam Singh",
