@@ -1,0 +1,19 @@
+{
+  "id": "arie07/dl-experiment-11",
+  "id_no": 81433644,
+  "title": "DL_Experiment_11",
+  "code_file": "dl-experiment-11.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
