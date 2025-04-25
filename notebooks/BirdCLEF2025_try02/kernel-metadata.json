@@ -1,0 +1,23 @@
+{
+  "id": "arie07/birdclef2025-try02",
+  "id_no": 81497172,
+  "title": "BirdCLEF2025_try02",
+  "code_file": "birdclef2025-try02.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "minsithu/audio-noise-dataset"
+  ],
+  "kernel_sources": [
+    "packagemanager/pm-81497172-at-04-24-2025-07-26-29"
+  ],
+  "competition_sources": [
+    "birdclef-2025"
+  ],
+  "model_sources": []
+}

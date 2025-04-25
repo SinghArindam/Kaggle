@@ -1,5 +1,19 @@
 [
     {
+        "ref":"arie07\/birdclef2025-try02",
+        "title":"BirdCLEF2025_try02",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-24 07:28:09.787000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/birdclef2025-try-01",
+        "title":"BirdCLEF2025_try_01",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-24 07:12:24.157000",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/dl-experiment-12",
         "title":"DL_Experiment_12",
         "author":"Arindam Singh",
