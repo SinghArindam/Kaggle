@@ -1,0 +1,19 @@
+{
+  "id": "arie07/02-learn-kaggle-competetions-with-titanic-dataset",
+  "id_no": 81770168,
+  "title": "02_Learn_Kaggle_Competetions_with_Titanic_Dataset",
+  "code_file": "02-learn-kaggle-competetions-with-titanic-dataset.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "titanic"
+  ],
+  "model_sources": []
+}

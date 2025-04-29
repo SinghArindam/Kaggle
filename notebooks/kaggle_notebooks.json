@@ -1,9 +1,37 @@
 [
     {
+        "ref":"arie07\/02-learn-kaggle-competetions-with-titanic-dataset",
+        "title":"02_Learn_Kaggle_Competetions_with_Titanic_Dataset",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-28 16:24:53.707000",
+        "totalVotes":1
+    },
+    {
+        "ref":"arie07\/drawing-with-llm-v0-0-0-5",
+        "title":"Drawing_with_LLM_v0.0.0.5",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-28 11:42:06.340000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/drawing-with-llm-v0-0-0-4",
+        "title":"Drawing_with_LLM_v0.0.0.4",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-28 11:47:29.937000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/birdclef-2025-try03",
+        "title":"BirdCLEF+2025_try03",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-04-28 09:17:09.270000",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/nasa-battery-data-analysis",
         "title":"NASA Battery Data Analysis",
         "author":"Arindam Singh",
-        "lastRunTime":"2025-04-27 17:32:46.090000",
+        "lastRunTime":"2025-04-28 12:08:48.540000",
         "totalVotes":0
     },
     {

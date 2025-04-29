@@ -1,0 +1,29 @@
+{
+  "id": "arie07/drawing-with-llm-v0-0-0-4",
+  "id_no": 81768204,
+  "title": "Drawing_with_LLM_v0.0.0.4",
+  "code_file": "drawing-with-llm-v0-0-0-4.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "package"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "metric/svg-constraints",
+    "metric/sac-logos-ava1-l14-linearmse",
+    "metric/openai-clip-vit-large-patch14",
+    "packagemanager/pm-81768204-at-04-28-2025-11-46-53"
+  ],
+  "competition_sources": [
+    "drawing-with-llms"
+  ],
+  "model_sources": [
+    "google/paligemma-2/Transformers/paligemma2-10b-mix-448/1",
+    "stabilityai/stable-diffusion-v2/PyTorch/1/1"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "arie07/birdclef-2025-try03",
+  "id_no": 81760249,
+  "title": "BirdCLEF+2025_try03",
+  "code_file": "birdclef-2025-try03.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "hideyukizushi/pub-bird25-b-422-ppv15-v2-s-focallossbce"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "birdclef-2025"
+  ],
+  "model_sources": []
+}
