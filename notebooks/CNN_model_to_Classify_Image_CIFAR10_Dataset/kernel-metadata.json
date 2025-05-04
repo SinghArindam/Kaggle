@@ -1,0 +1,19 @@
+{
+  "id": "arie07/cnn-model-to-classify-image-cifar10-dataset",
+  "id_no": 82102935,
+  "title": "CNN_model_to_Classify_Image_CIFAR10_Dataset",
+  "code_file": "cnn-model-to-classify-image-cifar10-dataset.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

@@ -1,5 +1,12 @@
 [
     {
+        "ref":"arie07\/cnn-model-to-classify-image-cifar10-dataset",
+        "title":"CNN_model_to_Classify_Image_CIFAR10_Dataset",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-05-03 09:36:53.060000",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/02-learn-kaggle-competetions-with-titanic-dataset",
         "title":"02_Learn_Kaggle_Competetions_with_Titanic_Dataset",
         "author":"Arindam Singh",
