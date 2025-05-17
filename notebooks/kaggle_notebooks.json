@@ -1,5 +1,12 @@
 [
     {
+        "ref":"arie07\/python-version",
+        "title":"Python_version",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-05-16 03:26:54.630000",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/cnn-model-to-classify-image-cifar10-dataset",
         "title":"CNN_model_to_Classify_Image_CIFAR10_Dataset",
         "author":"Arindam Singh",
