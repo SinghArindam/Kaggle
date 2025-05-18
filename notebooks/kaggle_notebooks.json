@@ -256,7 +256,7 @@
         "title":"ECAPA_TDNN_v4",
         "author":"Arindam Singh",
         "lastRunTime":"2025-02-25 08:21:30.400000",
-        "totalVotes":0
+        "totalVotes":1
     },
     {
         "ref":"arie07\/voice-transformer-speaker-verification-v1",
@@ -305,7 +305,7 @@
         "title":"Hello_World",
         "author":"Arindam Singh",
         "lastRunTime":"2025-03-25 06:59:02.807000",
-        "totalVotes":1
+        "totalVotes":2
     },
     {
         "ref":"arie07\/epi63-audio-compile",
