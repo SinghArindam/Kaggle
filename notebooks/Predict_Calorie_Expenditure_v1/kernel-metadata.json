@@ -1,0 +1,19 @@
+{
+  "id": "arie07/predict-calorie-expenditure-v1",
+  "id_no": 83174868,
+  "title": "Predict_Calorie_Expenditure_v1",
+  "code_file": "predict-calorie-expenditure-v1.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e5"
+  ],
+  "model_sources": []
+}
