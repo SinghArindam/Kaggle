@@ -1,5 +1,33 @@
 [
     {
+        "ref":"arie07\/predict-calorie-expenditure-v4",
+        "title":"Predict_Calorie_Expenditure_v4",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-05-25 10:43:08.363000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/predict-calorie-expenditure-v3",
+        "title":"Predict_Calorie_Expenditure_v3",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-05-25 10:21:53.773000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/predict-calorie-expenditure-v2",
+        "title":"Predict_Calorie_Expenditure_v2",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-05-25 09:56:30.367000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/gemma3-lora-medical-finetune",
+        "title":"Gemma3 Lora Medical finetune",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-05-25 08:20:18.833000",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/model-finetuning",
         "title":"Model Finetuning",
         "author":"Arindam Singh",
@@ -17,7 +45,7 @@
         "ref":"arie07\/predict-calorie-expenditure-v1",
         "title":"Predict_Calorie_Expenditure_v1",
         "author":"Arindam Singh",
-        "lastRunTime":"2025-05-19 16:22:29.907000",
+        "lastRunTime":"2025-05-25 08:32:38.897000",
         "totalVotes":0
     },
     {
