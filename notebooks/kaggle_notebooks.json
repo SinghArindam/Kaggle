@@ -1,9 +1,23 @@
 [
     {
+        "ref":"arie07\/predict-calorie-expenditure-v4",
+        "title":"Predict_Calorie_Expenditure_v4",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-05-27 17:04:31.440000",
+        "totalVotes":0
+    },
+    {
+        "ref":"arie07\/pce-v3-ensemble",
+        "title":"PCE_v3_Ensemble",
+        "author":"Arindam Singh",
+        "lastRunTime":"2025-05-27 13:24:58.390000",
+        "totalVotes":0
+    },
+    {
         "ref":"arie07\/predict-calorie-expenditure-v3",
         "title":"Predict_Calorie_Expenditure_v3",
         "author":"Arindam Singh",
-        "lastRunTime":"2025-05-25 10:21:53.773000",
+        "lastRunTime":"2025-05-27 13:11:57.243000",
         "totalVotes":0
     },
     {
