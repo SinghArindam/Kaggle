@@ -1,0 +1,22 @@
+{
+  "id": "arie07/pce-v4-ensemble",
+  "id_no": 84069013,
+  "title": "PCE_v4_Ensemble",
+  "code_file": "pce-v4-ensemble.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "arie07/ensemble-for-pce-s5e5",
+    "arie07/pce-v4-ensemble-csvs"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e5"
+  ],
+  "model_sources": []
+}
