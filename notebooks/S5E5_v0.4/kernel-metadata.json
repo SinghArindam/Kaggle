@@ -1,0 +1,19 @@
+{
+  "id": "arie07/s5e5-v0-4",
+  "id_no": 84659858,
+  "title": "S5E5_v0.4",
+  "code_file": "s5e5-v0-4.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e6"
+  ],
+  "model_sources": []
+}
