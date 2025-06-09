@@ -1,0 +1,21 @@
+{
+  "id": "arie07/s5e6-v0-5",
+  "id_no": 84711975,
+  "title": "S5E6_v0.5",
+  "code_file": "s5e6-v0-5.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "irakozekelly/fertilizer-prediction"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "playground-series-s5e6"
+  ],
+  "model_sources": []
+}
