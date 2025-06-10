@@ -36,22 +36,22 @@ jobs:
     - name: Convert to JSON
       run: |
         mkdir -p notebooks
-        - name: Download notebooks and metadata
-  run: |
-    python3 -c "
-      import json, os, subprocess
-      base_dir = 'notebooks'
-      notebooks = json.load(open('notebooks/kaggle_notebooks.json'))
-      for nb in notebooks:
-          title = nb['title']
-          safe_title = title.replace(' ', '_').replace('/', '_')  # Replace spaces and slashes
-          dir_path = os.path.join(base_dir, safe_title)
-          os.makedirs(dir_path, exist_ok=True)
-          try:
-              subprocess.run(['kaggle', 'kernels', 'pull', nb['ref'], '--path', dir_path], check=True)
-          except subprocess.CalledProcessError as e:
-              print(f'Failed to download notebook: {title}, Error: {e}')
-      "
+    - name: Download notebooks and metadata
+      run: |
+        python3 -c "
+        import json, os, subprocess
+        base_dir = 'notebooks'
+        notebooks = json.load(open('notebooks/kaggle_notebooks.json'))
+        for nb in notebooks:
+            title = nb['title']
+            safe_title = title.replace(' ', '_').replace('/', '_').replace('-', '_')  # Replace spaces and slashes
+            dir_path = os.path.join(base_dir, safe_title)
+            os.makedirs(dir_path, exist_ok=True)
+            try:
+                subprocess.run(['kaggle', 'kernels', 'pull', nb['ref'], '--path', dir_path], check=True)
+            except subprocess.CalledProcessError as e:
+                print(f'Failed to download notebook: {title}, Error: {e}')
+        "
 
     - name: Download notebooks and metadata
       run: |
