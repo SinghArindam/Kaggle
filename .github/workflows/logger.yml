@@ -2,7 +2,7 @@ name: Hourly File Structure Logging
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # Runs every hour at the start of the hour
+    - cron: "0 */2 * * *"  # Runs every 2 hours
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -18,16 +18,56 @@ jobs:
           git config --global user.name "SinghArindam"
           git config --global user.email "arindam0@hotmail.com"
 
-      - name: Create logs folder (if not exists)
+      - name: Create logs folder
         run: mkdir -p logs
 
-      - name: Generate log file
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate and append log
         run: |
-          TIMESTAMP=$(date +"%Y%m%d_%H%M%S")
-          ls -R > logs/log_${TIMESTAMP}.txt  # List all files and folders recursively
+          python - <<'EOF'
+          import json
+          import os
+          from datetime import datetime
+          import subprocess
+
+          # Get file structure
+          result = subprocess.run(['ls', '-R'], capture_output=True, text=True)
+          file_structure = result.stdout.strip().split('\n')
+
+          # Prepare log entry
+          log_entry = {
+              'timestamp': datetime.utcnow().isoformat() + 'Z',
+              'file_structure': file_structure
+          }
+
+          log_file = 'logs/file_structure_log.json'
+
+          # Initialize or read existing log file
+          if os.path.exists(log_file):
+              with open(log_file, 'r') as f:
+                  try:
+                      logs = json.load(f)
+                      if not isinstance(logs, list):
+                          logs = [logs]
+                  except json.JSONDecodeError:
+                      logs = []
+          else:
+              logs = []
+
+          # Append new entry
+          logs.append(log_entry)
+
+          # Write back to file
+          with open(log_file, 'w') as f:
+              json.dump(logs, f, indent=2)
+          EOF
 
       - name: Commit and Push Changes
         run: |
           git add logs/
-          git commit -m "Added hourly log file with file structure"
+          git commit -m "Appended hourly file structure log to JSON file" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/SinghArindam/Kaggle.git
