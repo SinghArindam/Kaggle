@@ -2,7 +2,7 @@ name: Hourly File Structure Logging
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # Runs every 2 hours
+    - cron: "0 * * * *"  # Runs every hour at the 0th minute
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
@@ -26,6 +26,9 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install pytz for timezone handling
+        run: pip install pytz
+
       - name: Generate and append log
         run: |
           python - <<'EOF'
@@ -33,6 +36,16 @@ jobs:
           import os
           from datetime import datetime
           import subprocess
+          import pytz # Import pytz
+
+          # Define the IST timezone
+          ist_timezone = pytz.timezone('Asia/Kolkata')
+
+          # Get current UTC time and convert to IST
+          ist_now = datetime.utcnow().astimezone(ist_timezone)
+
+          # Format timestamp including IST offset (e.g., +05:30)
+          timestamp_ist = ist_now.isoformat()
 
           # Get file structure
           result = subprocess.run(['ls', '-R'], capture_output=True, text=True)
@@ -40,7 +53,7 @@ jobs:
 
           # Prepare log entry
           log_entry = {
-              'timestamp': datetime.utcnow().isoformat() + 'Z',
+              'timestamp': timestamp_ist, # Using IST timestamp
               'file_structure': file_structure
           }
 
@@ -51,9 +64,11 @@ jobs:
               with open(log_file, 'r') as f:
                   try:
                       logs = json.load(f)
+                      # Ensure logs is a list, even if the file only contains one entry
                       if not isinstance(logs, list):
                           logs = [logs]
                   except json.JSONDecodeError:
+                      # Handle empty or invalid JSON file
                       logs = []
           else:
               logs = []
@@ -69,5 +84,6 @@ jobs:
       - name: Commit and Push Changes
         run: |
           git add logs/
-          git commit -m "Appended hourly file structure log to JSON file" || echo "No changes to commit"
+          # Only commit if there are changes
+          git diff-index --quiet HEAD || git commit -m "Add hourly file structure log with IST timestamp"
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/SinghArindam/Kaggle.git
