@@ -2,7 +2,7 @@ name: Hourly File Structure Logging
 
 on:
   schedule:
-    - cron: "0 */4 * * *"  # Runs every hour at the 0th minute
+    - cron: "0 */2 * * *"  # Runs every hour at the 0th minute
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
