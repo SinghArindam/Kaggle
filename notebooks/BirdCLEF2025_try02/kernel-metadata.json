@@ -19,5 +19,7 @@
   "competition_sources": [
     "birdclef-2025"
   ],
-  "model_sources": []
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:36bd91c0e9248f9f2748be5cf354e070f2f93034099b1c02932530ef1e928303",
+  "machine_shape": "None"
 }

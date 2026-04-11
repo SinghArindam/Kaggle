@@ -17,5 +17,7 @@
     "arie07/srxv-py310"
   ],
   "competition_sources": [],
-  "model_sources": []
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:57cb636a65386fd6c74fc9969211623034c487f7d483f9cd2c8456ebe2619345",
+  "machine_shape": "Gpu"
 }

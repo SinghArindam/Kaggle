@@ -13,5 +13,7 @@
   "dataset_sources": [],
   "kernel_sources": [],
   "competition_sources": [],
-  "model_sources": []
+  "model_sources": [],
+  "docker_image": "",
+  "machine_shape": "None"
 }

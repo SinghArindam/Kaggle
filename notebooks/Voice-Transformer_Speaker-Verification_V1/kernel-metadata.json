@@ -15,5 +15,7 @@
   ],
   "kernel_sources": [],
   "competition_sources": [],
-  "model_sources": []
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:ff73f172a2ebcff8591eaae2ade447df7b6d2c6b7b4655f628e57f12fab3c687",
+  "machine_shape": "None"
 }

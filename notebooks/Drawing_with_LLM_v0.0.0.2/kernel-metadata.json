@@ -25,5 +25,7 @@
     "google/paligemma-2/Transformers/paligemma2-10b-mix-448/1",
     "jiazhuang/sac-logos-ava1-l14-linearmse/Transformers/default/1",
     "stabilityai/stable-diffusion-v2/PyTorch/1/1"
-  ]
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:d8674e13fab653bf7fb8d9a102f2ae94036771ccb5c73f51888d881421e1f937",
+  "machine_shape": "NvidiaTeslaT4"
 }

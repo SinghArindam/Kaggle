@@ -20,5 +20,7 @@
   "model_sources": [
     "takusid/flux1-dev-q2_k/PyTorch/default/2",
     "aishikai/google-siglip-so400m-patch14-384/Transformers/default/1"
-  ]
+  ],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:f4b6dd72d4ac48c76fbb02bce0798b80b284102886ad37e6041e9ab721dc8873",
+  "machine_shape": "None"
 }

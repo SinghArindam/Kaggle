@@ -15,5 +15,7 @@
   "competition_sources": [
     "home-data-for-ml-course"
   ],
-  "model_sources": []
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:9a64aaf544db07179b1202109de9a638fb5b422fab0f9d12aca91ecdc556ce0e",
+  "machine_shape": "None"
 }

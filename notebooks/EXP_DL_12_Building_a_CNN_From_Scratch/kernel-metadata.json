@@ -19,5 +19,7 @@
   "competition_sources": [
     "digit-recognizer"
   ],
-  "model_sources": []
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:d8674e13fab653bf7fb8d9a102f2ae94036771ccb5c73f51888d881421e1f937",
+  "machine_shape": "Gpu"
 }
